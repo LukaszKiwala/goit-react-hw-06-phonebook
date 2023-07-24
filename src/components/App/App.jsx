@@ -1,15 +1,14 @@
-import { Container, Title, SubTitle } from './App.styled';
+import { Container, Titile, SubTitile } from './App.styled';
 import { ContactForm } from '../ContactForm/ContactForm';
 import { Filter } from '../Filter/Filter';
 import { ContactList } from '../ContactList/ContactList';
 
-
 export const App = () => {
   return (
     <Container>
-      <Title>Phonebook</Title>
+      <Titile>Phonebook</Titile>
       <ContactForm />
-      <SubTitle>Contacts</SubTitle>
+      <SubTitile>Contacts</SubTitile>
       <Filter />
       <ContactList />
     </Container>
